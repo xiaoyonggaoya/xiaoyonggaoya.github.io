@@ -1,0 +1,31 @@
+.main {
+  width: 70%;
+  margin: 8% auto 0;
+  background-color: #fff6;
+  padding: 2% 5%;
+  border-radius: 10px
+}
+ul {
+  padding-left: 20px;
+}
+ul li {
+  line-height: 2.3
+}
+/* 电脑，手机横屏 */
+@media screen and (orientation: landscape) {
+body {
+background-image:url('bg.jpg');
+background-repeat:
+no-repeat;
+background-size:100%100%;
+background-attachment:fixed;
+}}
+/* 手机竖屏 */
+@media screen and (orientation: portrait) {
+body {
+background-image:url('bg_m.jpg');
+background-repeat:
+no-repeat;
+background-size:100%100%;
+background-attachment:fixed;
+}}
